@@ -1,0 +1,77 @@
+\hypertarget{class_machine_states}{}\doxysection{Machine\+States Class Reference}
+\label{class_machine_states}\index{MachineStates@{MachineStates}}
+
+
+{\ttfamily \#include $<$Machine\+States.\+h$>$}
+
+
+
+Collaboration diagram for Machine\+States\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=187pt]{class_machine_states__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_machine_states_a4047a76d6a8e29fec5334d01408edf8c}{adding\+\_\+state}} (state\+\_\+ptr new\+\_\+state, bool replacing=true)
+\begin{DoxyCompactList}\small\item\em Function used to add a new state to the stack of states. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_machine_states_ad74b4a787471762215836d6d9ff883ee}\label{class_machine_states_ad74b4a787471762215836d6d9ff883ee}} 
+void \mbox{\hyperlink{class_machine_states_ad74b4a787471762215836d6d9ff883ee}{removing\+\_\+state}} ()
+\begin{DoxyCompactList}\small\item\em function to remove a particular state from the stack of states \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_machine_states_a5c10180f9c5292d72f8dd55e7c275fa2}\label{class_machine_states_a5c10180f9c5292d72f8dd55e7c275fa2}} 
+void \mbox{\hyperlink{class_machine_states_a5c10180f9c5292d72f8dd55e7c275fa2}{updating\+\_\+state}} ()
+\begin{DoxyCompactList}\small\item\em function to update changes to a particular state \end{DoxyCompactList}\item 
+state\+\_\+ptr \& \mbox{\hyperlink{class_machine_states_aa3ce6bc61598de786b4f84a1b865455e}{get\+\_\+current\+\_\+state}} ()
+\begin{DoxyCompactList}\small\item\em function to get the current running state \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Phetolo Malele(1412331), Kananelo Kortjaas (605016) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+19/09/2019 
+\end{DoxyDate}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_machine_states_a4047a76d6a8e29fec5334d01408edf8c}\label{class_machine_states_a4047a76d6a8e29fec5334d01408edf8c}} 
+\index{MachineStates@{MachineStates}!adding\_state@{adding\_state}}
+\index{adding\_state@{adding\_state}!MachineStates@{MachineStates}}
+\doxysubsubsection{\texorpdfstring{adding\_state()}{adding\_state()}}
+{\footnotesize\ttfamily void Machine\+States\+::adding\+\_\+state (\begin{DoxyParamCaption}\item[{state\+\_\+ptr}]{new\+\_\+state,  }\item[{bool}]{replacing = {\ttfamily true} }\end{DoxyParamCaption})}
+
+
+
+Function used to add a new state to the stack of states. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+\_\+state} & The state that is being added, a unique pointer of type \mbox{\hyperlink{class_state}{State}} \\
+\hline
+{\em replacing} & specifying if the current state is being replaced, boolean type \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_machine_states_aa3ce6bc61598de786b4f84a1b865455e}\label{class_machine_states_aa3ce6bc61598de786b4f84a1b865455e}} 
+\index{MachineStates@{MachineStates}!get\_current\_state@{get\_current\_state}}
+\index{get\_current\_state@{get\_current\_state}!MachineStates@{MachineStates}}
+\doxysubsubsection{\texorpdfstring{get\_current\_state()}{get\_current\_state()}}
+{\footnotesize\ttfamily state\+\_\+ptr \& Machine\+States\+::get\+\_\+current\+\_\+state (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+function to get the current running state 
+
+\begin{DoxyReturn}{Returns}
+returns a pointer to the current state by reference 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_machine_states_8h}{Machine\+States.\+h}}\item 
+Machine\+States.\+cpp\end{DoxyCompactItemize}

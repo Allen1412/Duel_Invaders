@@ -1,0 +1,137 @@
+\hypertarget{class_armada}{}\doxysection{Armada Class Reference}
+\label{class_armada}\index{Armada@{Armada}}
+
+
+{\ttfamily \#include $<$Armada.\+h$>$}
+
+
+
+Collaboration diagram for Armada\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=167pt]{class_armada__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_armada_a71ab8bea74dec3e4e15c6910e088dbda}\label{class_armada_a71ab8bea74dec3e4e15c6910e088dbda}} 
+{\bfseries Armada} (const unsigned \&cap, const Direction \&dir, const bool \&is\+Down, const float \&xpos, const float \&ypos)
+\item 
+\mbox{\Hypertarget{class_armada_a75678e8690a5a09bd2aab5b0beb337e6}\label{class_armada_a75678e8690a5a09bd2aab5b0beb337e6}} 
+void \mbox{\hyperlink{class_armada_a75678e8690a5a09bd2aab5b0beb337e6}{set\+State}} ()
+\begin{DoxyCompactList}\small\item\em function that sets the state of the armada to dead or alive; \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_armada_a38d8210fa8a9a12b87dcd309dd8485d6}{get\+State}} () const
+\begin{DoxyCompactList}\small\item\em function to get the state of the armada \end{DoxyCompactList}\item 
+unsigned \mbox{\hyperlink{class_armada_ae28768fe040827d08ddd15228320278f}{armada\+\_\+size}} () const
+\begin{DoxyCompactList}\small\item\em function that gets the size of the armada \end{DoxyCompactList}\item 
+enemy\+\_\+vector \& \mbox{\hyperlink{class_armada_aa8dd2db4d2a4134bfaf376614c97bdf6}{get\+Armada}} ()
+\begin{DoxyCompactList}\small\item\em function that gets the armada vector \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_armada_a4c27446185fc2f02583effb3d0791bfb}{moving\+\_\+all}} (const Direction \&dir)
+\begin{DoxyCompactList}\small\item\em function that moves all the armada \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_armada_ac12dee657c7be1321a9fb30b391d5db9}{turning\+\_\+all}} (const Direction \&dir)
+\begin{DoxyCompactList}\small\item\em function that turns all the armada \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_armada_a31cd5284d86de6a15d4343e15fba8650}{direc}} ()
+\begin{DoxyCompactList}\small\item\em function to determine the direction of movement for armada \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Phetolo Malele(1412331), Kananelo Kortjaas (605016) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+22/09/2019 
+\end{DoxyDate}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_armada_ae28768fe040827d08ddd15228320278f}\label{class_armada_ae28768fe040827d08ddd15228320278f}} 
+\index{Armada@{Armada}!armada\_size@{armada\_size}}
+\index{armada\_size@{armada\_size}!Armada@{Armada}}
+\doxysubsubsection{\texorpdfstring{armada\_size()}{armada\_size()}}
+{\footnotesize\ttfamily unsigned Armada\+::armada\+\_\+size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+function that gets the size of the armada 
+
+\begin{DoxyReturn}{Returns}
+the size of the armada 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_armada_a31cd5284d86de6a15d4343e15fba8650}\label{class_armada_a31cd5284d86de6a15d4343e15fba8650}} 
+\index{Armada@{Armada}!direc@{direc}}
+\index{direc@{direc}!Armada@{Armada}}
+\doxysubsubsection{\texorpdfstring{direc()}{direc()}}
+{\footnotesize\ttfamily int Armada\+::direc (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+function to determine the direction of movement for armada 
+
+\begin{DoxyReturn}{Returns}
+integer, 1 if we going to the right, 2 turning from the right, 3 left, 4 turning from left 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_armada_aa8dd2db4d2a4134bfaf376614c97bdf6}\label{class_armada_aa8dd2db4d2a4134bfaf376614c97bdf6}} 
+\index{Armada@{Armada}!getArmada@{getArmada}}
+\index{getArmada@{getArmada}!Armada@{Armada}}
+\doxysubsubsection{\texorpdfstring{getArmada()}{getArmada()}}
+{\footnotesize\ttfamily enemy\+\_\+vector\& Armada\+::get\+Armada (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+function that gets the armada vector 
+
+\begin{DoxyReturn}{Returns}
+vector type, armada vector 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_armada_a38d8210fa8a9a12b87dcd309dd8485d6}\label{class_armada_a38d8210fa8a9a12b87dcd309dd8485d6}} 
+\index{Armada@{Armada}!getState@{getState}}
+\index{getState@{getState}!Armada@{Armada}}
+\doxysubsubsection{\texorpdfstring{getState()}{getState()}}
+{\footnotesize\ttfamily bool Armada\+::get\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+function to get the state of the armada 
+
+\begin{DoxyReturn}{Returns}
+bool, returns true if alive and false if dead 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_armada_a4c27446185fc2f02583effb3d0791bfb}\label{class_armada_a4c27446185fc2f02583effb3d0791bfb}} 
+\index{Armada@{Armada}!moving\_all@{moving\_all}}
+\index{moving\_all@{moving\_all}!Armada@{Armada}}
+\doxysubsubsection{\texorpdfstring{moving\_all()}{moving\_all()}}
+{\footnotesize\ttfamily void Armada\+::moving\+\_\+all (\begin{DoxyParamCaption}\item[{const Direction \&}]{dir }\end{DoxyParamCaption})}
+
+
+
+function that moves all the armada 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dir} & direction of movement \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_armada_ac12dee657c7be1321a9fb30b391d5db9}\label{class_armada_ac12dee657c7be1321a9fb30b391d5db9}} 
+\index{Armada@{Armada}!turning\_all@{turning\_all}}
+\index{turning\_all@{turning\_all}!Armada@{Armada}}
+\doxysubsubsection{\texorpdfstring{turning\_all()}{turning\_all()}}
+{\footnotesize\ttfamily void Armada\+::turning\+\_\+all (\begin{DoxyParamCaption}\item[{const Direction \&}]{dir }\end{DoxyParamCaption})}
+
+
+
+function that turns all the armada 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dir} & direction of turning \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_armada_8h}{Armada.\+h}}\item 
+Armada.\+cpp\end{DoxyCompactItemize}

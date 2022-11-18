@@ -1,0 +1,8 @@
+<map id="Bullet.h" name="Bullet.h">
+<area shape="rect" id="node1" title="class that models the bullets of the game" alt="" coords="129,5,195,32"/>
+<area shape="rect" id="node2" href="$_bullet_drawable_8h.html" title="class to present bullet objects" alt="" coords="5,155,124,181"/>
+<area shape="rect" id="node3" href="$_game_states_8h.html" title="class for outputting the splash state" alt="" coords="134,229,241,256"/>
+<area shape="rect" id="node5" href="$_bullet_loader_8h.html" title="class that models a bullet vector and the position at which it is loaded" alt="" coords="200,80,305,107"/>
+<area shape="rect" id="node4" href="$_game_play_8h.html" title="class that manages the logic of the game" alt="" coords="140,304,235,331"/>
+<area shape="rect" id="node6" href="$_collision_handling_8h.html" title="class that takes care of collisions between particular objects" alt="" coords="251,155,383,181"/>
+</map>

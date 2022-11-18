@@ -1,0 +1,84 @@
+\hypertarget{_game_states_8h}{}\doxysection{Game\+States.\+h File Reference}
+\label{_game_states_8h}\index{GameStates.h@{GameStates.h}}
+
+
+class for outputting the splash state  
+
+
+{\ttfamily \#include \char`\"{}Armada.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Army.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Bullet.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Enemy.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Enemy\+Drawable.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Game\+Object\+Properties.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Player.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Player\+Drawable.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}State.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$S\+F\+M\+L/\+Graphics.\+hpp$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include \char`\"{}Bullet\+Drawable.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Bullet\+Loader.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Collision\+Handling.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+Include dependency graph for Game\+States.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_states_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=160pt]{_game_states_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_splash_state}{Splash\+State}}
+\item 
+class \mbox{\hyperlink{class_main_menu}{Main\+Menu}}
+\item 
+class \mbox{\hyperlink{class_game_mode}{Game\+Mode}}
+\item 
+class \mbox{\hyperlink{class_game_over_win}{Game\+Over\+Win}}
+\item 
+class \mbox{\hyperlink{class_game_over_lose}{Game\+Over\+Lose}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_game_states_8h_ac088d8eb194d0d1b5809351fbf3810bb}\label{_game_states_8h_ac088d8eb194d0d1b5809351fbf3810bb}} 
+using {\bfseries enemy\+\_\+ptr} = std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_enemy}{Enemy}} $>$
+\item 
+\mbox{\Hypertarget{_game_states_8h_a9972642a379503f77f475af36aa077c8}\label{_game_states_8h_a9972642a379503f77f475af36aa077c8}} 
+using {\bfseries armada\+\_\+ptr} = std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_armada}{Armada}} $>$
+\item 
+\mbox{\Hypertarget{_game_states_8h_a2e59605ccc25d66a6a9bcd61eac774c7}\label{_game_states_8h_a2e59605ccc25d66a6a9bcd61eac774c7}} 
+using {\bfseries army\+Vec} = std\+::vector$<$ vector$<$ std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_enemy_drawable}{Enemy\+Drawable}} $>$ $>$$>$
+\item 
+\mbox{\Hypertarget{_game_states_8h_a5d2de93463c6ce20c402ac8f8a0a631d}\label{_game_states_8h_a5d2de93463c6ce20c402ac8f8a0a631d}} 
+using {\bfseries bullet\+\_\+ptr} = std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_bullet}{Bullet}} $>$
+\item 
+\mbox{\Hypertarget{_game_states_8h_ae921514b9c951d2cb08e716d744c9707}\label{_game_states_8h_ae921514b9c951d2cb08e716d744c9707}} 
+using {\bfseries bullets\+Vector} = std\+::vector$<$ std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_bullet_drawable}{Bullet\+Drawable}} $>$ $>$
+\item 
+\mbox{\Hypertarget{_game_states_8h_a02a124d81c0aec5efc34f97dee9721be}\label{_game_states_8h_a02a124d81c0aec5efc34f97dee9721be}} 
+using {\bfseries collision\+\_\+handling\+\_\+ptr} = std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_collision_handling}{Collision\+Handling}} $>$
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+class for outputting the splash state 
+
+class that models the state that gets called when the game is lost
+
+class that models the game winning state of the game
+
+class to model the game playing state of the game, called after user presses P
+
+class for displaying the main menu state, executed after user presses enter

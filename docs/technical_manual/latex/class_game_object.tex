@@ -1,0 +1,174 @@
+\hypertarget{class_game_object}{}\doxysection{Game\+Object Class Reference}
+\label{class_game_object}\index{GameObject@{GameObject}}
+
+
+{\ttfamily \#include $<$Game\+Object.\+h$>$}
+
+
+
+Inheritance diagram for Game\+Object\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_game_object__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Game\+Object\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=175pt]{class_game_object__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_game_object_a81b0bd85452e6b54ba3cd362b33d7be4}{set\+Size}} (const float \&\+\_\+xmin=0.f, const float \&\+\_\+ymin=0.f, const float \&\+\_\+xmax=55.f, const float \&\+\_\+ymax=55.f)=0
+\begin{DoxyCompactList}\small\item\em function to set the size of objects \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_game_object_a71b11f7301b7bf2805e8c6311f917c7e}{set\+Position}} (const float \&x\+\_\+pos, const float \&y\+\_\+pos)=0
+\begin{DoxyCompactList}\small\item\em function to set position of object \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{struct_coordinates}{Coordinates}} \mbox{\hyperlink{class_game_object_a16d986bc32180a824a1e90cd36bbda8f}{get\+Position}} () const =0
+\begin{DoxyCompactList}\small\item\em function to get the position of an object \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{struct_size}{Size}} \mbox{\hyperlink{class_game_object_a328a330b87bde0b1318b635c9bbf98fb}{get\+Size}} () const =0
+\begin{DoxyCompactList}\small\item\em function to get the size of an object \end{DoxyCompactList}\item 
+virtual bool \mbox{\hyperlink{class_game_object_a62c183c834acbb3f72f61d2f67c9c856}{get\+Active\+State}} () const =0
+\begin{DoxyCompactList}\small\item\em function to get the state of an object \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_game_object_a96e8d183cfd96bcdc47fc10991c1d3be}{set\+Active\+State}} (const bool \&\+\_\+flag)=0
+\begin{DoxyCompactList}\small\item\em function to set the state of the object \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Phetolo Malele(1412331), Kananelo Kortjaas (605016) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+26/09/2019 
+\end{DoxyDate}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_game_object_a62c183c834acbb3f72f61d2f67c9c856}\label{class_game_object_a62c183c834acbb3f72f61d2f67c9c856}} 
+\index{GameObject@{GameObject}!getActiveState@{getActiveState}}
+\index{getActiveState@{getActiveState}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{getActiveState()}{getActiveState()}}
+{\footnotesize\ttfamily virtual bool Game\+Object\+::get\+Active\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+function to get the state of an object 
+
+\begin{DoxyReturn}{Returns}
+true if state is active and false otherwise 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_moveable_character_a5aaca037a38a6fc0917d75b2ef14d676}{Moveable\+Character}}.
+
+\mbox{\Hypertarget{class_game_object_a16d986bc32180a824a1e90cd36bbda8f}\label{class_game_object_a16d986bc32180a824a1e90cd36bbda8f}} 
+\index{GameObject@{GameObject}!getPosition@{getPosition}}
+\index{getPosition@{getPosition}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{getPosition()}{getPosition()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{struct_coordinates}{Coordinates}} Game\+Object\+::get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+function to get the position of an object 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_moveable_character_a528c8d60cd613fee596d60ebc565265a}{Moveable\+Character}}.
+
+\mbox{\Hypertarget{class_game_object_a328a330b87bde0b1318b635c9bbf98fb}\label{class_game_object_a328a330b87bde0b1318b635c9bbf98fb}} 
+\index{GameObject@{GameObject}!getSize@{getSize}}
+\index{getSize@{getSize}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{getSize()}{getSize()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{struct_size}{Size}} Game\+Object\+::get\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+function to get the size of an object 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_moveable_character_a73076e69a6998460cb48d95efafd1b4d}{Moveable\+Character}}.
+
+\mbox{\Hypertarget{class_game_object_a96e8d183cfd96bcdc47fc10991c1d3be}\label{class_game_object_a96e8d183cfd96bcdc47fc10991c1d3be}} 
+\index{GameObject@{GameObject}!setActiveState@{setActiveState}}
+\index{setActiveState@{setActiveState}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{setActiveState()}{setActiveState()}}
+{\footnotesize\ttfamily virtual void Game\+Object\+::set\+Active\+State (\begin{DoxyParamCaption}\item[{const bool \&}]{\+\_\+flag }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+function to set the state of the object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+flag} & true sets the state to be active and false sets the state to be non-\/active \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_moveable_character_ad559e52bd0f226e34e49598dd8395500}{Moveable\+Character}}.
+
+\mbox{\Hypertarget{class_game_object_a71b11f7301b7bf2805e8c6311f917c7e}\label{class_game_object_a71b11f7301b7bf2805e8c6311f917c7e}} 
+\index{GameObject@{GameObject}!setPosition@{setPosition}}
+\index{setPosition@{setPosition}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{setPosition()}{setPosition()}}
+{\footnotesize\ttfamily virtual void Game\+Object\+::set\+Position (\begin{DoxyParamCaption}\item[{const float \&}]{x\+\_\+pos,  }\item[{const float \&}]{y\+\_\+pos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+function to set position of object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x\+\_\+pos} & x\+\_\+coord of object \\
+\hline
+{\em y\+\_\+pos} & y\+\_\+coord of object \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_moveable_character_a476d9acd47d12a5e5051657b9ee84924}{Moveable\+Character}}.
+
+\mbox{\Hypertarget{class_game_object_a81b0bd85452e6b54ba3cd362b33d7be4}\label{class_game_object_a81b0bd85452e6b54ba3cd362b33d7be4}} 
+\index{GameObject@{GameObject}!setSize@{setSize}}
+\index{setSize@{setSize}!GameObject@{GameObject}}
+\doxysubsubsection{\texorpdfstring{setSize()}{setSize()}}
+{\footnotesize\ttfamily virtual void Game\+Object\+::set\+Size (\begin{DoxyParamCaption}\item[{const float \&}]{\+\_\+xmin = {\ttfamily 0.f},  }\item[{const float \&}]{\+\_\+ymin = {\ttfamily 0.f},  }\item[{const float \&}]{\+\_\+xmax = {\ttfamily 55.f},  }\item[{const float \&}]{\+\_\+ymax = {\ttfamily 55.f} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+function to set the size of objects 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+xmin} & x\+\_\+coord minimum size of object \\
+\hline
+{\em \+\_\+ymin} & y\+\_\+coord minimum size of object \\
+\hline
+{\em \+\_\+xmax} & x\+\_\+coord maximum size of object \\
+\hline
+{\em \+\_\+ymax} & y\+\_\+coord maimum size of object \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_moveable_character_a573e3d095a0be0f039fe03088b9525d0}{Moveable\+Character}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_game_object_8h}{Game\+Object.\+h}}\end{DoxyCompactItemize}

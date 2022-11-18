@@ -1,0 +1,106 @@
+\hypertarget{class_enemy}{}\doxysection{Enemy Class Reference}
+\label{class_enemy}\index{Enemy@{Enemy}}
+
+
+{\ttfamily \#include $<$Enemy.\+h$>$}
+
+
+
+Inheritance diagram for Enemy\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_enemy__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Enemy\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_enemy__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_enemy_a24a5c9f39a3fd55823777618e3b966c9}\label{class_enemy_a24a5c9f39a3fd55823777618e3b966c9}} 
+{\bfseries Enemy} (const Direction \&dir, const float \&x, const float \&y)
+\item 
+void \mbox{\hyperlink{class_enemy_a11d5f52924054289062dc0441f1b71a1}{move}} (const Direction \&dir)
+\begin{DoxyCompactList}\small\item\em function that moves the enemy at a particular speed \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_enemy_a5d3af52b7d1bb2bcbaf08ac94a07c054}{turning}} (const Direction \&dir, const bool \&going\+Down)
+\begin{DoxyCompactList}\small\item\em function to turn the enemies left or right \end{DoxyCompactList}\item 
+Direction \& \mbox{\hyperlink{class_enemy_a0836f20c4d3fb70b513d4af635f9d6d6}{get\+Direction}} ()
+\begin{DoxyCompactList}\small\item\em function to return the direction of movement \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Phetolo Malele(1412331), Kananelo Kortjaas (605016) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+21/09/2019 
+\end{DoxyDate}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_enemy_a0836f20c4d3fb70b513d4af635f9d6d6}\label{class_enemy_a0836f20c4d3fb70b513d4af635f9d6d6}} 
+\index{Enemy@{Enemy}!getDirection@{getDirection}}
+\index{getDirection@{getDirection}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{getDirection()}{getDirection()}}
+{\footnotesize\ttfamily Direction\& Enemy\+::get\+Direction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+function to return the direction of movement 
+
+\begin{DoxyReturn}{Returns}
+enum of directions 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_enemy_a11d5f52924054289062dc0441f1b71a1}\label{class_enemy_a11d5f52924054289062dc0441f1b71a1}} 
+\index{Enemy@{Enemy}!move@{move}}
+\index{move@{move}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily void Enemy\+::move (\begin{DoxyParamCaption}\item[{const Direction \&}]{dir }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+function that moves the enemy at a particular speed 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dir} & a specific direction to which the enemy should go \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_moveable_character_ad79203988b4862ee788c82832d2d2d4b}{Moveable\+Character}}.
+
+\mbox{\Hypertarget{class_enemy_a5d3af52b7d1bb2bcbaf08ac94a07c054}\label{class_enemy_a5d3af52b7d1bb2bcbaf08ac94a07c054}} 
+\index{Enemy@{Enemy}!turning@{turning}}
+\index{turning@{turning}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{turning()}{turning()}}
+{\footnotesize\ttfamily void Enemy\+::turning (\begin{DoxyParamCaption}\item[{const Direction \&}]{dir,  }\item[{const bool \&}]{going\+Down }\end{DoxyParamCaption})}
+
+
+
+function to turn the enemies left or right 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dir} & direction at which we turn \\
+\hline
+{\em going\+Down} & enemy heading up or down, true for down and false for up \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_enemy_8h}{Enemy.\+h}}\item 
+Enemy.\+cpp\end{DoxyCompactItemize}

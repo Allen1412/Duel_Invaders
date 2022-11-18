@@ -1,0 +1,13 @@
+<map id="GameObjectProperties.h" name="GameObjectProperties.h">
+<area shape="rect" id="node1" title="this has all the properties that are gonna be needed in the entite game" alt="" coords="180,5,345,32"/>
+<area shape="rect" id="node2" href="$_data_manager_8h.html" title="class used to load all data used in the game" alt="" coords="39,80,150,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,155,61,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="137,155,276,181"/>
+<area shape="rect" id="node5" href="$_input_handler_8h.html" title="class to detect keyboard pressed by user" alt="" coords="325,80,430,107"/>
+<area shape="rect" id="node7" href="$_machine_states_8h.html" title="class used to manage execution of all states,putting them in stack" alt="" coords="455,80,575,107"/>
+<area shape="rect" id="node9" title=" " alt="" coords="577,155,647,181"/>
+<area shape="rect" id="node11" href="$_screen_8h.html" title="class for the render window characteristics of the game" alt="" coords="225,80,300,107"/>
+<area shape="rect" id="node6" title=" " alt="" coords="319,155,385,181"/>
+<area shape="rect" id="node8" href="$_state_8h_source.html" title=" " alt="" coords="409,155,473,181"/>
+<area shape="rect" id="node10" title=" " alt="" coords="498,155,553,181"/>
+</map>

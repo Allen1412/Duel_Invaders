@@ -1,0 +1,115 @@
+\hypertarget{class_data_manager}{}\doxysection{Data\+Manager Class Reference}
+\label{class_data_manager}\index{DataManager@{DataManager}}
+
+
+{\ttfamily \#include $<$Data\+Manager.\+h$>$}
+
+
+
+Collaboration diagram for Data\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=175pt]{class_data_manager__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_data_manager_a7147c6d058fb8de18367e1d4e71bf0ff}{texture\+\_\+loader}} (const Texture\+\_\+ \&texture\+\_\+name, const string \&path)
+\begin{DoxyCompactList}\small\item\em function to load game textures in a vector \end{DoxyCompactList}\item 
+Texture \& \mbox{\hyperlink{class_data_manager_a28368597d0509ca0c035b8d005f5175b}{get\+\_\+texture}} (const Texture\+\_\+ \&texture\+\_\+name)
+\begin{DoxyCompactList}\small\item\em function that gets a specific texture from a vector \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_data_manager_a582fca2e15c46dd1042fab908532b30d}{font\+\_\+loader}} (const Font\+\_\+ \&font\+\_\+name, const string \&path)
+\begin{DoxyCompactList}\small\item\em function to load game fonts in a vector \end{DoxyCompactList}\item 
+Font \& \mbox{\hyperlink{class_data_manager_aa3c68ec63e2b323b3934fda5fbce9756}{get\+\_\+font}} (const Font\+\_\+ \&font\+\_\+name)
+\begin{DoxyCompactList}\small\item\em function that gets a specific font \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Phetolo Malele(1412331), Kananelo Kortjaas (605016) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+19/09/2019 
+\end{DoxyDate}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_data_manager_a582fca2e15c46dd1042fab908532b30d}\label{class_data_manager_a582fca2e15c46dd1042fab908532b30d}} 
+\index{DataManager@{DataManager}!font\_loader@{font\_loader}}
+\index{font\_loader@{font\_loader}!DataManager@{DataManager}}
+\doxysubsubsection{\texorpdfstring{font\_loader()}{font\_loader()}}
+{\footnotesize\ttfamily void Data\+Manager\+::font\+\_\+loader (\begin{DoxyParamCaption}\item[{const Font\+\_\+ \&}]{font\+\_\+name,  }\item[{const string \&}]{path }\end{DoxyParamCaption})}
+
+
+
+function to load game fonts in a vector 
+
+
+\begin{DoxyParams}{Parameters}
+{\em font\+\_\+name} & the name of the font that is being loaded \\
+\hline
+{\em path} & file path for the font that is being loaded \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_data_manager_aa3c68ec63e2b323b3934fda5fbce9756}\label{class_data_manager_aa3c68ec63e2b323b3934fda5fbce9756}} 
+\index{DataManager@{DataManager}!get\_font@{get\_font}}
+\index{get\_font@{get\_font}!DataManager@{DataManager}}
+\doxysubsubsection{\texorpdfstring{get\_font()}{get\_font()}}
+{\footnotesize\ttfamily Font \& Data\+Manager\+::get\+\_\+font (\begin{DoxyParamCaption}\item[{const Font\+\_\+ \&}]{font\+\_\+name }\end{DoxyParamCaption})}
+
+
+
+function that gets a specific font 
+
+
+\begin{DoxyParams}{Parameters}
+{\em font\+\_\+name} & name of font that is being returned \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+a font type 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_data_manager_a28368597d0509ca0c035b8d005f5175b}\label{class_data_manager_a28368597d0509ca0c035b8d005f5175b}} 
+\index{DataManager@{DataManager}!get\_texture@{get\_texture}}
+\index{get\_texture@{get\_texture}!DataManager@{DataManager}}
+\doxysubsubsection{\texorpdfstring{get\_texture()}{get\_texture()}}
+{\footnotesize\ttfamily Texture \& Data\+Manager\+::get\+\_\+texture (\begin{DoxyParamCaption}\item[{const Texture\+\_\+ \&}]{texture\+\_\+name }\end{DoxyParamCaption})}
+
+
+
+function that gets a specific texture from a vector 
+
+
+\begin{DoxyParams}{Parameters}
+{\em texture\+\_\+name} & name of that specific texture \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns a texture, texture type 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_data_manager_a7147c6d058fb8de18367e1d4e71bf0ff}\label{class_data_manager_a7147c6d058fb8de18367e1d4e71bf0ff}} 
+\index{DataManager@{DataManager}!texture\_loader@{texture\_loader}}
+\index{texture\_loader@{texture\_loader}!DataManager@{DataManager}}
+\doxysubsubsection{\texorpdfstring{texture\_loader()}{texture\_loader()}}
+{\footnotesize\ttfamily void Data\+Manager\+::texture\+\_\+loader (\begin{DoxyParamCaption}\item[{const Texture\+\_\+ \&}]{texture\+\_\+name,  }\item[{const string \&}]{path }\end{DoxyParamCaption})}
+
+
+
+function to load game textures in a vector 
+
+
+\begin{DoxyParams}{Parameters}
+{\em texture\+\_\+name} & the name of the texture that is being loaded \\
+\hline
+{\em path} & file path for the texture that is being loaded \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_data_manager_8h}{Data\+Manager.\+h}}\item 
+Data\+Manager.\+cpp\end{DoxyCompactItemize}

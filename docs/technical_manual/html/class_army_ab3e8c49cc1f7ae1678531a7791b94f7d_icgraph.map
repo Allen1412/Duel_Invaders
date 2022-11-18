@@ -1,0 +1,4 @@
+<map id="Army::delay" name="Army::delay">
+<area shape="rect" id="node1" title="function used to delay movement" alt="" coords="144,5,236,32"/>
+<area shape="rect" id="node2" href="$class_army.html#af6b97c30325aeed0bd1155e8dac457e1" title="function to move the army" alt="" coords="5,5,96,32"/>
+</map>

@@ -1,0 +1,103 @@
+\hypertarget{class_screen}{}\doxysection{Screen Class Reference}
+\label{class_screen}\index{Screen@{Screen}}
+
+
+{\ttfamily \#include $<$Screen.\+h$>$}
+
+
+
+Collaboration diagram for Screen\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=201pt]{class_screen__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_screen_aee6c8964d91a8f998eb605cf522d0eff}{Create\+Screen}} (const float \&\+\_\+width, const float \&\+\_\+height, const std\+::string \&\+\_\+window\+Title, const uint32\+\_\+t \&\+\_\+style)
+\begin{DoxyCompactList}\small\item\em function to create the screen \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_screen_a3d449fc28841fbdce766585085055cba}\label{class_screen_a3d449fc28841fbdce766585085055cba}} 
+void \mbox{\hyperlink{class_screen_a3d449fc28841fbdce766585085055cba}{Clear\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em clears the screen \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_screen_a7307215d08e28e38d3df7fc5781bb576}\label{class_screen_a7307215d08e28e38d3df7fc5781bb576}} 
+void \mbox{\hyperlink{class_screen_a7307215d08e28e38d3df7fc5781bb576}{Update\+Game\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em updates the screen \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_screen_a9a5c8a60123e43e99da4029aa91372e3}{Draw\+To\+Game\+Screen}} (const sf\+::\+Drawable \&\+\_\+drawable\+Object)
+\begin{DoxyCompactList}\small\item\em draws and object to game screen \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_screen_a5a7136214243c9579eb400a05d40ef6e}\label{class_screen_a5a7136214243c9579eb400a05d40ef6e}} 
+void \mbox{\hyperlink{class_screen_a5a7136214243c9579eb400a05d40ef6e}{Close\+Game\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em function to close the game window \end{DoxyCompactList}\item 
+Render\+Window \& \mbox{\hyperlink{class_screen_a4eeb2587519ef72cd6128fc2a271524a}{get\+Game\+Screen}} ()
+\begin{DoxyCompactList}\small\item\em function that gets the window \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Phetolo Malele(1412331), Kananelo Kortjaas (605016) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+19/09/2019 
+\end{DoxyDate}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_screen_aee6c8964d91a8f998eb605cf522d0eff}\label{class_screen_aee6c8964d91a8f998eb605cf522d0eff}} 
+\index{Screen@{Screen}!CreateScreen@{CreateScreen}}
+\index{CreateScreen@{CreateScreen}!Screen@{Screen}}
+\doxysubsubsection{\texorpdfstring{CreateScreen()}{CreateScreen()}}
+{\footnotesize\ttfamily void Screen\+::\+Create\+Screen (\begin{DoxyParamCaption}\item[{const float \&}]{\+\_\+width,  }\item[{const float \&}]{\+\_\+height,  }\item[{const std\+::string \&}]{\+\_\+window\+Title,  }\item[{const uint32\+\_\+t \&}]{\+\_\+style }\end{DoxyParamCaption})}
+
+
+
+function to create the screen 
+
+screen is closed here
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+width} & width of the screen, float \\
+\hline
+{\em \+\_\+height} & height of the screen, float \\
+\hline
+{\em \+\_\+window\+Title} & title of window, string \\
+\hline
+{\em \+\_\+style} & type of window used \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_screen_a9a5c8a60123e43e99da4029aa91372e3}\label{class_screen_a9a5c8a60123e43e99da4029aa91372e3}} 
+\index{Screen@{Screen}!DrawToGameScreen@{DrawToGameScreen}}
+\index{DrawToGameScreen@{DrawToGameScreen}!Screen@{Screen}}
+\doxysubsubsection{\texorpdfstring{DrawToGameScreen()}{DrawToGameScreen()}}
+{\footnotesize\ttfamily void Screen\+::\+Draw\+To\+Game\+Screen (\begin{DoxyParamCaption}\item[{const sf\+::\+Drawable \&}]{\+\_\+drawable\+Object }\end{DoxyParamCaption})}
+
+
+
+draws and object to game screen 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+drawable\+Object} & takes in a drawable object \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_screen_a4eeb2587519ef72cd6128fc2a271524a}\label{class_screen_a4eeb2587519ef72cd6128fc2a271524a}} 
+\index{Screen@{Screen}!getGameScreen@{getGameScreen}}
+\index{getGameScreen@{getGameScreen}!Screen@{Screen}}
+\doxysubsubsection{\texorpdfstring{getGameScreen()}{getGameScreen()}}
+{\footnotesize\ttfamily Render\+Window\& Screen\+::get\+Game\+Screen (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+function that gets the window 
+
+\begin{DoxyReturn}{Returns}
+returns the render window of the game 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_screen_8h}{Screen.\+h}}\item 
+Screen.\+cpp\end{DoxyCompactItemize}

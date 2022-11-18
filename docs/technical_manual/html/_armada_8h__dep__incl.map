@@ -1,0 +1,7 @@
+<map id="Armada.h" name="Armada.h">
+<area shape="rect" id="node1" title="class that models a row of enemies as a vector" alt="" coords="152,5,231,32"/>
+<area shape="rect" id="node2" href="$_army_8h.html" title="class that models a vector of armadas, 2d vector of enemies" alt="" coords="125,80,189,107"/>
+<area shape="rect" id="node4" href="$_game_states_8h.html" title="class for outputting the splash state" alt="" coords="122,229,229,256"/>
+<area shape="rect" id="node3" href="$_collision_handling_8h.html" title="class that takes care of collisions between particular objects" alt="" coords="5,155,137,181"/>
+<area shape="rect" id="node5" href="$_game_play_8h.html" title="class that manages the logic of the game" alt="" coords="128,304,223,331"/>
+</map>

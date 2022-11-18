@@ -1,0 +1,114 @@
+\hypertarget{class_army}{}\doxysection{Army Class Reference}
+\label{class_army}\index{Army@{Army}}
+
+
+{\ttfamily \#include $<$Army.\+h$>$}
+
+
+
+Collaboration diagram for Army\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=157pt]{class_army__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_army_a81d0bc62a8c43fb90db7ae821f713478}\label{class_army_a81d0bc62a8c43fb90db7ae821f713478}} 
+{\bfseries Army} (const unsigned \&capx, const unsigned \&capy, const Direction \&dir, const bool \&is\+Down, const float \&xpos, const float \&ypos, bool is\+Lower)
+\item 
+\mbox{\Hypertarget{class_army_acc5cc308ee3214007be4111ac228a606}\label{class_army_acc5cc308ee3214007be4111ac228a606}} 
+void \mbox{\hyperlink{class_army_acc5cc308ee3214007be4111ac228a606}{set\+State}} ()
+\begin{DoxyCompactList}\small\item\em function that sets the state of the army, dead or alive \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_army_ad99b9eab7056d19b510d2f561cb4397f}{get\+State}} ()
+\begin{DoxyCompactList}\small\item\em function that gets the state of the army \end{DoxyCompactList}\item 
+unsigned \mbox{\hyperlink{class_army_a43ad0c0270afc9511fd9bc786701cd27}{army\+\_\+size}} ()
+\begin{DoxyCompactList}\small\item\em function that gets the size of the army \end{DoxyCompactList}\item 
+armada\+\_\+vector \& \mbox{\hyperlink{class_army_ac12b0a23d5bd1331a3c36d3b3655888c}{get\+Army}} ()
+\begin{DoxyCompactList}\small\item\em function that gets the vector of armadas(army) by reference \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_army_af6b97c30325aeed0bd1155e8dac457e1}\label{class_army_af6b97c30325aeed0bd1155e8dac457e1}} 
+void \mbox{\hyperlink{class_army_af6b97c30325aeed0bd1155e8dac457e1}{move}} ()
+\begin{DoxyCompactList}\small\item\em function to move the army \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_army_ab3e8c49cc1f7ae1678531a7791b94f7d}{delay}} ()
+\begin{DoxyCompactList}\small\item\em function used to delay movement \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Phetolo Malele(1412331), Kananelo Kortjaas (605016) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+25/09/2019 
+\end{DoxyDate}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_army_a43ad0c0270afc9511fd9bc786701cd27}\label{class_army_a43ad0c0270afc9511fd9bc786701cd27}} 
+\index{Army@{Army}!army\_size@{army\_size}}
+\index{army\_size@{army\_size}!Army@{Army}}
+\doxysubsubsection{\texorpdfstring{army\_size()}{army\_size()}}
+{\footnotesize\ttfamily unsigned Army\+::army\+\_\+size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+function that gets the size of the army 
+
+\begin{DoxyReturn}{Returns}
+unsigned value 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_army_ab3e8c49cc1f7ae1678531a7791b94f7d}\label{class_army_ab3e8c49cc1f7ae1678531a7791b94f7d}} 
+\index{Army@{Army}!delay@{delay}}
+\index{delay@{delay}!Army@{Army}}
+\doxysubsubsection{\texorpdfstring{delay()}{delay()}}
+{\footnotesize\ttfamily bool Army\+::delay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+function used to delay movement 
+
+\begin{DoxyReturn}{Returns}
+boolean, true if time delay is greater than 5 seconds false otherwise 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=253pt]{class_army_ab3e8c49cc1f7ae1678531a7791b94f7d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_army_ac12b0a23d5bd1331a3c36d3b3655888c}\label{class_army_ac12b0a23d5bd1331a3c36d3b3655888c}} 
+\index{Army@{Army}!getArmy@{getArmy}}
+\index{getArmy@{getArmy}!Army@{Army}}
+\doxysubsubsection{\texorpdfstring{getArmy()}{getArmy()}}
+{\footnotesize\ttfamily armada\+\_\+vector\& Army\+::get\+Army (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+function that gets the vector of armadas(army) by reference 
+
+\begin{DoxyReturn}{Returns}
+returns a vector of armadas 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_army_ad99b9eab7056d19b510d2f561cb4397f}\label{class_army_ad99b9eab7056d19b510d2f561cb4397f}} 
+\index{Army@{Army}!getState@{getState}}
+\index{getState@{getState}!Army@{Army}}
+\doxysubsubsection{\texorpdfstring{getState()}{getState()}}
+{\footnotesize\ttfamily bool Army\+::get\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+function that gets the state of the army 
+
+\begin{DoxyReturn}{Returns}
+boolean, true if alive and false if dead 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_army_8h}{Army.\+h}}\item 
+Army.\+cpp\end{DoxyCompactItemize}

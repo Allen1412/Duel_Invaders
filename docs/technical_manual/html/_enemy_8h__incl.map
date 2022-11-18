@@ -1,0 +1,16 @@
+<map id="Enemy.h" name="Enemy.h">
+<area shape="rect" id="node1" title="class that models each enemy on an armada" alt="" coords="211,5,286,32"/>
+<area shape="rect" id="node2" href="$_moveable_character_8h.html" title="class to model every moveable character" alt="" coords="177,80,320,107"/>
+<area shape="rect" id="node3" href="$_game_object_8h.html" title="class to model objects of the game" alt="" coords="150,155,256,181"/>
+<area shape="rect" id="node4" href="$_game_object_properties_8h.html" title="this has all the properties that are gonna be needed in the entite game" alt="" coords="166,229,331,256"/>
+<area shape="rect" id="node5" href="$_data_manager_8h.html" title="class used to load all data used in the game" alt="" coords="25,304,136,331"/>
+<area shape="rect" id="node6" title=" " alt="" coords="11,379,67,405"/>
+<area shape="rect" id="node7" title=" " alt="" coords="123,379,262,405"/>
+<area shape="rect" id="node8" href="$_input_handler_8h.html" title="class to detect keyboard pressed by user" alt="" coords="310,304,416,331"/>
+<area shape="rect" id="node10" href="$_machine_states_8h.html" title="class used to manage execution of all states,putting them in stack" alt="" coords="440,304,560,331"/>
+<area shape="rect" id="node12" title=" " alt="" coords="563,379,632,405"/>
+<area shape="rect" id="node14" href="$_screen_8h.html" title="class for the render window characteristics of the game" alt="" coords="211,304,286,331"/>
+<area shape="rect" id="node9" title=" " alt="" coords="305,379,370,405"/>
+<area shape="rect" id="node11" href="$_state_8h_source.html" title=" " alt="" coords="395,379,459,405"/>
+<area shape="rect" id="node13" title=" " alt="" coords="484,379,538,405"/>
+</map>

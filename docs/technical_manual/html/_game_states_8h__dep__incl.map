@@ -1,0 +1,4 @@
+<map id="GameStates.h" name="GameStates.h">
+<area shape="rect" id="node1" title="class for outputting the splash state" alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node2" href="$_game_play_8h.html" title="class that manages the logic of the game" alt="" coords="11,80,106,107"/>
+</map>

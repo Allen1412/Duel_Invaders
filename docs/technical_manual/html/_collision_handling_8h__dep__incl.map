@@ -1,0 +1,5 @@
+<map id="CollisionHandling.h" name="CollisionHandling.h">
+<area shape="rect" id="node1" title="class that takes care of collisions between particular objects" alt="" coords="5,5,137,32"/>
+<area shape="rect" id="node2" href="$_game_states_8h.html" title="class for outputting the splash state" alt="" coords="18,80,125,107"/>
+<area shape="rect" id="node3" href="$_game_play_8h.html" title="class that manages the logic of the game" alt="" coords="24,155,119,181"/>
+</map>

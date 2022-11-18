@@ -1,0 +1,7 @@
+<map id="MoveableCharacter::changePosition" name="MoveableCharacter::changePosition">
+<area shape="rect" id="node1" title="function to change the position of a specific moveable character" alt="" coords="193,104,333,145"/>
+<area shape="rect" id="node2" href="$class_moveable_character.html#a3f1367ed68127d51b0e90b39cdf0ebaa" title="function to move a moveable character down" alt="" coords="5,5,145,47"/>
+<area shape="rect" id="node3" href="$class_moveable_character.html#ac45ca5290ca4b0b7d5138eaf0c92d92e" title="function to move a character to the left" alt="" coords="5,71,145,112"/>
+<area shape="rect" id="node4" href="$class_moveable_character.html#a9903772dff29a2eb6a0f0bd70e256692" title="function that moves a character to the right" alt="" coords="5,136,145,177"/>
+<area shape="rect" id="node5" href="$class_moveable_character.html#a59d28dc3761afd7c27f7ddd2cb932477" title="function to move a moveable character up" alt="" coords="5,201,145,243"/>
+</map>

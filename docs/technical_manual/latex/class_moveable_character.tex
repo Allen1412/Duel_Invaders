@@ -1,0 +1,278 @@
+\hypertarget{class_moveable_character}{}\doxysection{Moveable\+Character Class Reference}
+\label{class_moveable_character}\index{MoveableCharacter@{MoveableCharacter}}
+
+
+{\ttfamily \#include $<$Moveable\+Character.\+h$>$}
+
+
+
+Inheritance diagram for Moveable\+Character\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_moveable_character__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Moveable\+Character\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=200pt]{class_moveable_character__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_moveable_character_a476d9acd47d12a5e5051657b9ee84924}{set\+Position}} (const float \&x\+\_\+pos, const float \&y\+\_\+pos) override
+\begin{DoxyCompactList}\small\item\em virtual voud function to set the position of any moveable character \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_moveable_character_a573e3d095a0be0f039fe03088b9525d0}{set\+Size}} (const float \&\+\_\+xmin=0.f, const float \&\+\_\+ymin=0.f, const float \&\+\_\+xmax=60.f, const float \&\+\_\+ymax=60.f) override
+\begin{DoxyCompactList}\small\item\em function that sets the size of any moveable character \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{struct_coordinates}{Coordinates}} \mbox{\hyperlink{class_moveable_character_a528c8d60cd613fee596d60ebc565265a}{get\+Position}} () const override
+\begin{DoxyCompactList}\small\item\em function getter, that gets the position of any moveable character \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{struct_size}{Size}} \mbox{\hyperlink{class_moveable_character_a73076e69a6998460cb48d95efafd1b4d}{get\+Size}} () const override
+\begin{DoxyCompactList}\small\item\em getter for the size of the character \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_moveable_character_a1b39c7685923c55e4f7b470e0472f233}{get\+Speed}} () const
+\begin{DoxyCompactList}\small\item\em function getter to \end{DoxyCompactList}\item 
+virtual bool \mbox{\hyperlink{class_moveable_character_a5aaca037a38a6fc0917d75b2ef14d676}{get\+Active\+State}} () const override
+\begin{DoxyCompactList}\small\item\em function to return the state of a moveable character \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_moveable_character_ad559e52bd0f226e34e49598dd8395500}{set\+Active\+State}} (const bool \&\+\_\+flag) override
+\begin{DoxyCompactList}\small\item\em function to set the state of a moveable character, sets true or false \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_moveable_character_ad79203988b4862ee788c82832d2d2d4b}{move}} (const Direction \&direction)
+\begin{DoxyCompactList}\small\item\em function to move character \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_moveable_character_a59d28dc3761afd7c27f7ddd2cb932477}\label{class_moveable_character_a59d28dc3761afd7c27f7ddd2cb932477}} 
+void \mbox{\hyperlink{class_moveable_character_a59d28dc3761afd7c27f7ddd2cb932477}{move\+\_\+\+Up}} ()
+\begin{DoxyCompactList}\small\item\em function to move a moveable character up \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_moveable_character_a3f1367ed68127d51b0e90b39cdf0ebaa}\label{class_moveable_character_a3f1367ed68127d51b0e90b39cdf0ebaa}} 
+void \mbox{\hyperlink{class_moveable_character_a3f1367ed68127d51b0e90b39cdf0ebaa}{move\+\_\+\+Down}} ()
+\begin{DoxyCompactList}\small\item\em function to move a moveable character down \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_moveable_character_ac45ca5290ca4b0b7d5138eaf0c92d92e}\label{class_moveable_character_ac45ca5290ca4b0b7d5138eaf0c92d92e}} 
+void \mbox{\hyperlink{class_moveable_character_ac45ca5290ca4b0b7d5138eaf0c92d92e}{move\+\_\+\+Left}} ()
+\begin{DoxyCompactList}\small\item\em function to move a character to the left \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_moveable_character_a9903772dff29a2eb6a0f0bd70e256692}\label{class_moveable_character_a9903772dff29a2eb6a0f0bd70e256692}} 
+void \mbox{\hyperlink{class_moveable_character_a9903772dff29a2eb6a0f0bd70e256692}{move\+\_\+\+Right}} ()
+\begin{DoxyCompactList}\small\item\em function that moves a character to the right \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_moveable_character_a2370821b2ecd2b012081c77d2e118079}{set\+Speed}} (const float \&\+\_\+speed)
+\begin{DoxyCompactList}\small\item\em function that sets the speed of all moveable characters \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_moveable_character_a06b78e680e0f63d45305232982c6e9f7}{change\+Position}} (const float \&x\+\_\+pos, const float \&y\+\_\+pos)
+\begin{DoxyCompactList}\small\item\em function to change the position of a specific moveable character \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Phetolo Malele(1412331), Kananelo Kortjaas (605016) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+20/09/2019 
+\end{DoxyDate}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_moveable_character_a06b78e680e0f63d45305232982c6e9f7}\label{class_moveable_character_a06b78e680e0f63d45305232982c6e9f7}} 
+\index{MoveableCharacter@{MoveableCharacter}!changePosition@{changePosition}}
+\index{changePosition@{changePosition}!MoveableCharacter@{MoveableCharacter}}
+\doxysubsubsection{\texorpdfstring{changePosition()}{changePosition()}}
+{\footnotesize\ttfamily void Moveable\+Character\+::change\+Position (\begin{DoxyParamCaption}\item[{const float \&}]{x\+\_\+pos,  }\item[{const float \&}]{y\+\_\+pos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+function to change the position of a specific moveable character 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x\+\_\+pos} & the new x-\/coordinate, float \\
+\hline
+{\em y\+\_\+pos} & the new y-\/coordinate, float \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{class_moveable_character_a06b78e680e0f63d45305232982c6e9f7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_moveable_character_a5aaca037a38a6fc0917d75b2ef14d676}\label{class_moveable_character_a5aaca037a38a6fc0917d75b2ef14d676}} 
+\index{MoveableCharacter@{MoveableCharacter}!getActiveState@{getActiveState}}
+\index{getActiveState@{getActiveState}!MoveableCharacter@{MoveableCharacter}}
+\doxysubsubsection{\texorpdfstring{getActiveState()}{getActiveState()}}
+{\footnotesize\ttfamily virtual bool Moveable\+Character\+::get\+Active\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+function to return the state of a moveable character 
+
+\begin{DoxyReturn}{Returns}
+returns the state, boolean 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_game_object_a62c183c834acbb3f72f61d2f67c9c856}{Game\+Object}}.
+
+\mbox{\Hypertarget{class_moveable_character_a528c8d60cd613fee596d60ebc565265a}\label{class_moveable_character_a528c8d60cd613fee596d60ebc565265a}} 
+\index{MoveableCharacter@{MoveableCharacter}!getPosition@{getPosition}}
+\index{getPosition@{getPosition}!MoveableCharacter@{MoveableCharacter}}
+\doxysubsubsection{\texorpdfstring{getPosition()}{getPosition()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{struct_coordinates}{Coordinates}} Moveable\+Character\+::get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+function getter, that gets the position of any moveable character 
+
+\begin{DoxyReturn}{Returns}
+position of moveable character 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_game_object_a16d986bc32180a824a1e90cd36bbda8f}{Game\+Object}}.
+
+\mbox{\Hypertarget{class_moveable_character_a73076e69a6998460cb48d95efafd1b4d}\label{class_moveable_character_a73076e69a6998460cb48d95efafd1b4d}} 
+\index{MoveableCharacter@{MoveableCharacter}!getSize@{getSize}}
+\index{getSize@{getSize}!MoveableCharacter@{MoveableCharacter}}
+\doxysubsubsection{\texorpdfstring{getSize()}{getSize()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{struct_size}{Size}} Moveable\+Character\+::get\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+getter for the size of the character 
+
+\begin{DoxyReturn}{Returns}
+size of any moveable character, type size 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_game_object_a328a330b87bde0b1318b635c9bbf98fb}{Game\+Object}}.
+
+\mbox{\Hypertarget{class_moveable_character_a1b39c7685923c55e4f7b470e0472f233}\label{class_moveable_character_a1b39c7685923c55e4f7b470e0472f233}} 
+\index{MoveableCharacter@{MoveableCharacter}!getSpeed@{getSpeed}}
+\index{getSpeed@{getSpeed}!MoveableCharacter@{MoveableCharacter}}
+\doxysubsubsection{\texorpdfstring{getSpeed()}{getSpeed()}}
+{\footnotesize\ttfamily float Moveable\+Character\+::get\+Speed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+function getter to 
+
+\begin{DoxyReturn}{Returns}
+speed of moveable character, float type 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{class_moveable_character_a1b39c7685923c55e4f7b470e0472f233_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_moveable_character_ad79203988b4862ee788c82832d2d2d4b}\label{class_moveable_character_ad79203988b4862ee788c82832d2d2d4b}} 
+\index{MoveableCharacter@{MoveableCharacter}!move@{move}}
+\index{move@{move}!MoveableCharacter@{MoveableCharacter}}
+\doxysubsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily void Moveable\+Character\+::move (\begin{DoxyParamCaption}\item[{const Direction \&}]{direction }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+function to move character 
+
+
+\begin{DoxyParams}{Parameters}
+{\em direction} & parameter to determine the direction of movement \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{class_player_a947488fd4a57676c21de8c55fe299c50}{Player}}, \mbox{\hyperlink{class_bullet_ad6151d10b1cb71e46aa9f8ce5a86e5aa}{Bullet}}, and \mbox{\hyperlink{class_enemy_a11d5f52924054289062dc0441f1b71a1}{Enemy}}.
+
+\mbox{\Hypertarget{class_moveable_character_ad559e52bd0f226e34e49598dd8395500}\label{class_moveable_character_ad559e52bd0f226e34e49598dd8395500}} 
+\index{MoveableCharacter@{MoveableCharacter}!setActiveState@{setActiveState}}
+\index{setActiveState@{setActiveState}!MoveableCharacter@{MoveableCharacter}}
+\doxysubsubsection{\texorpdfstring{setActiveState()}{setActiveState()}}
+{\footnotesize\ttfamily virtual void Moveable\+Character\+::set\+Active\+State (\begin{DoxyParamCaption}\item[{const bool \&}]{\+\_\+flag }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+function to set the state of a moveable character, sets true or false 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+flag} & boolean character that sets the state of a moveable character \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_game_object_a96e8d183cfd96bcdc47fc10991c1d3be}{Game\+Object}}.
+
+\mbox{\Hypertarget{class_moveable_character_a476d9acd47d12a5e5051657b9ee84924}\label{class_moveable_character_a476d9acd47d12a5e5051657b9ee84924}} 
+\index{MoveableCharacter@{MoveableCharacter}!setPosition@{setPosition}}
+\index{setPosition@{setPosition}!MoveableCharacter@{MoveableCharacter}}
+\doxysubsubsection{\texorpdfstring{setPosition()}{setPosition()}}
+{\footnotesize\ttfamily void Moveable\+Character\+::set\+Position (\begin{DoxyParamCaption}\item[{const float \&}]{x\+\_\+pos,  }\item[{const float \&}]{y\+\_\+pos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+virtual voud function to set the position of any moveable character 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x\+\_\+pos} & the x-\/coordinate of a moveable character \\
+\hline
+{\em y\+\_\+pos} & the y-\/coordinate of a moveable character \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_game_object_a71b11f7301b7bf2805e8c6311f917c7e}{Game\+Object}}.
+
+\mbox{\Hypertarget{class_moveable_character_a573e3d095a0be0f039fe03088b9525d0}\label{class_moveable_character_a573e3d095a0be0f039fe03088b9525d0}} 
+\index{MoveableCharacter@{MoveableCharacter}!setSize@{setSize}}
+\index{setSize@{setSize}!MoveableCharacter@{MoveableCharacter}}
+\doxysubsubsection{\texorpdfstring{setSize()}{setSize()}}
+{\footnotesize\ttfamily void Moveable\+Character\+::set\+Size (\begin{DoxyParamCaption}\item[{const float \&}]{\+\_\+xmin = {\ttfamily 0.f},  }\item[{const float \&}]{\+\_\+ymin = {\ttfamily 0.f},  }\item[{const float \&}]{\+\_\+xmax = {\ttfamily 60.f},  }\item[{const float \&}]{\+\_\+ymax = {\ttfamily 60.f} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+function that sets the size of any moveable character 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+xmin} & minimum width of a moveable character \\
+\hline
+{\em \+\_\+ymin} & minimum height of a moveable character \\
+\hline
+{\em \+\_\+xmax} & maximum width of any moveable character \\
+\hline
+{\em \+\_\+ymax} & maximum height of any moveable character \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_game_object_a81b0bd85452e6b54ba3cd362b33d7be4}{Game\+Object}}.
+
+\mbox{\Hypertarget{class_moveable_character_a2370821b2ecd2b012081c77d2e118079}\label{class_moveable_character_a2370821b2ecd2b012081c77d2e118079}} 
+\index{MoveableCharacter@{MoveableCharacter}!setSpeed@{setSpeed}}
+\index{setSpeed@{setSpeed}!MoveableCharacter@{MoveableCharacter}}
+\doxysubsubsection{\texorpdfstring{setSpeed()}{setSpeed()}}
+{\footnotesize\ttfamily void Moveable\+Character\+::set\+Speed (\begin{DoxyParamCaption}\item[{const float \&}]{\+\_\+speed }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+function that sets the speed of all moveable characters 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+speed} & the speed of which a specific character moves \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_moveable_character_8h}{Moveable\+Character.\+h}}\item 
+Moveable\+Character.\+cpp\end{DoxyCompactItemize}

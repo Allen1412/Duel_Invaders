@@ -1,0 +1,7 @@
+<map id="GameComponents" name="GameComponents">
+<area shape="rect" id="node1" title=" " alt="" coords="263,248,393,325"/>
+<area shape="rect" id="node2" href="$class_input_handler.html" title=" " alt="" coords="5,42,144,149"/>
+<area shape="rect" id="node3" href="$class_machine_states.html" title=" " alt="" coords="169,20,311,171"/>
+<area shape="rect" id="node4" href="$class_screen.html" title=" " alt="" coords="335,5,497,185"/>
+<area shape="rect" id="node5" href="$class_data_manager.html" title=" " alt="" coords="521,20,647,171"/>
+</map>

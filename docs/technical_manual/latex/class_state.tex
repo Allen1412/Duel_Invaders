@@ -1,0 +1,74 @@
+\hypertarget{class_state}{}\doxysection{State Class Reference}
+\label{class_state}\index{State@{State}}
+
+
+{\ttfamily \#include $<$State.\+h$>$}
+
+
+
+Inheritance diagram for State\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_state__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for State\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=175pt]{class_state__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_state_ab467c21472ca8ea7d5bbe23b7606ea86}\label{class_state_ab467c21472ca8ea7d5bbe23b7606ea86}} 
+virtual void \mbox{\hyperlink{class_state_ab467c21472ca8ea7d5bbe23b7606ea86}{initial\+\_\+state}} ()=0
+\begin{DoxyCompactList}\small\item\em function to initialise every state conditions \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_state_a0b55f64e6f2198a63bcf711bef52afac}\label{class_state_a0b55f64e6f2198a63bcf711bef52afac}} 
+virtual void \mbox{\hyperlink{class_state_a0b55f64e6f2198a63bcf711bef52afac}{state\+\_\+update}} ()=0
+\begin{DoxyCompactList}\small\item\em Function that keeps track of all changes in a state ~\newline
+ \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_state_acff6cb93fc69808ac4dc681a6feba2db}\label{class_state_acff6cb93fc69808ac4dc681a6feba2db}} 
+virtual void \mbox{\hyperlink{class_state_acff6cb93fc69808ac4dc681a6feba2db}{input\+\_\+handler}} ()=0
+\begin{DoxyCompactList}\small\item\em Function that communicates with user and responds to their inputs ~\newline
+ \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_state_a59fd04f82c04f8346e496bb676540d3a}\label{class_state_a59fd04f82c04f8346e496bb676540d3a}} 
+virtual void \mbox{\hyperlink{class_state_a59fd04f82c04f8346e496bb676540d3a}{draw\+\_\+\+State}} ()=0
+\begin{DoxyCompactList}\small\item\em Function to draw changes to the screen ~\newline
+ \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_state_abad223d1066e95bd1b70e1341fb72a88}\label{class_state_abad223d1066e95bd1b70e1341fb72a88}} 
+virtual void \mbox{\hyperlink{class_state_abad223d1066e95bd1b70e1341fb72a88}{pause}} ()
+\begin{DoxyCompactList}\small\item\em Function used to pause the current state ~\newline
+ \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_state_a8ef6d305e962afe41b0629255f0f58f9}\label{class_state_a8ef6d305e962afe41b0629255f0f58f9}} 
+virtual void \mbox{\hyperlink{class_state_a8ef6d305e962afe41b0629255f0f58f9}{resume}} ()
+\begin{DoxyCompactList}\small\item\em Function used to resume the current state of the game. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_state_a15a6f148ac8fa9eecf309aa973c4e1f0}\label{class_state_a15a6f148ac8fa9eecf309aa973c4e1f0}} 
+virtual void \mbox{\hyperlink{class_state_a15a6f148ac8fa9eecf309aa973c4e1f0}{Create\+\_\+\+Screen}} ()=0
+\begin{DoxyCompactList}\small\item\em function used to create screen with respect to state changes \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_state_a6b9cc28ad1d20215221321b167ae0788}\label{class_state_a6b9cc28ad1d20215221321b167ae0788}} 
+virtual void \mbox{\hyperlink{class_state_a6b9cc28ad1d20215221321b167ae0788}{Check\+For\+Input}} ()=0
+\begin{DoxyCompactList}\small\item\em checks for keyboard input at that state \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Phetolo Malele(1412331), Kananelo Kortjaas (605016) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+19/09/2019 
+\end{DoxyDate}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+State.\+h\end{DoxyCompactItemize}

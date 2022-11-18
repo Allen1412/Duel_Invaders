@@ -1,0 +1,90 @@
+\hypertarget{class_player}{}\doxysection{Player Class Reference}
+\label{class_player}\index{Player@{Player}}
+
+
+{\ttfamily \#include $<$Player.\+h$>$}
+
+
+
+Inheritance diagram for Player\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_player__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Player\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_player__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_player_ab38d25330f00a0fecbd04265f2162dab}\label{class_player_ab38d25330f00a0fecbd04265f2162dab}} 
+{\bfseries Player} (const float \&x, const float \&y)
+\item 
+void \mbox{\hyperlink{class_player_a947488fd4a57676c21de8c55fe299c50}{move}} (const Direction \&direction)
+\begin{DoxyCompactList}\small\item\em function to move a player \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_a4cdc67fd9ca2de09af89d9ae19efe5f8}\label{class_player_a4cdc67fd9ca2de09af89d9ae19efe5f8}} 
+void \mbox{\hyperlink{class_player_a4cdc67fd9ca2de09af89d9ae19efe5f8}{shoot}} ()
+\begin{DoxyCompactList}\small\item\em function that gets called when player shoots \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_player_ab721f580c15ea078182bf938acec36fe}{is\+Shooting}} () const
+\begin{DoxyCompactList}\small\item\em function that detects if a player is shooting or not \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Phetolo Malele(1412331), Kananelo Kortjaas (605016) 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+20/09/2019 
+\end{DoxyDate}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_player_ab721f580c15ea078182bf938acec36fe}\label{class_player_ab721f580c15ea078182bf938acec36fe}} 
+\index{Player@{Player}!isShooting@{isShooting}}
+\index{isShooting@{isShooting}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{isShooting()}{isShooting()}}
+{\footnotesize\ttfamily bool Player\+::is\+Shooting (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+function that detects if a player is shooting or not 
+
+\begin{DoxyReturn}{Returns}
+boolean for shooting 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_player_a947488fd4a57676c21de8c55fe299c50}\label{class_player_a947488fd4a57676c21de8c55fe299c50}} 
+\index{Player@{Player}!move@{move}}
+\index{move@{move}!Player@{Player}}
+\doxysubsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily void Player\+::move (\begin{DoxyParamCaption}\item[{const Direction \&}]{direction }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+function to move a player 
+
+
+\begin{DoxyParams}{Parameters}
+{\em direction} & the direction of movement, type Direction \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_moveable_character_ad79203988b4862ee788c82832d2d2d4b}{Moveable\+Character}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_player_8h}{Player.\+h}}\item 
+Player.\+cpp\end{DoxyCompactItemize}

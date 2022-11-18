@@ -1,0 +1,180 @@
+\hypertarget{_game_object_properties_8h}{}\doxysection{Game\+Object\+Properties.\+h File Reference}
+\label{_game_object_properties_8h}\index{GameObjectProperties.h@{GameObjectProperties.h}}
+
+
+this has all the properties that are gonna be needed in the entite game  
+
+
+{\ttfamily \#include \char`\"{}Data\+Manager.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Input\+Handler.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Machine\+States.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Screen.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$S\+F\+M\+L/\+Graphics.\+hpp$>$}\newline
+{\ttfamily \#include $<$memory$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+Include dependency graph for Game\+Object\+Properties.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_object_properties_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_game_object_properties_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{struct_game_components}{Game\+Components}}
+\item 
+class \mbox{\hyperlink{struct_coordinates}{Coordinates}}
+\item 
+struct \mbox{\hyperlink{struct_size}{Size}}
+\item 
+struct \mbox{\hyperlink{struct_game_screen_size}{Game\+Screen\+Size}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_aee8a5867c579f39e829e326a983dc7f0}\label{_game_object_properties_8h_aee8a5867c579f39e829e326a983dc7f0}} 
+using {\bfseries Screen\+Item} = Sprite
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a9a51f9f9c4ae850b39b326f93700cee7}\label{_game_object_properties_8h_a9a51f9f9c4ae850b39b326f93700cee7}} 
+using {\bfseries \+\_\+game\+Resources} = std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{struct_game_components}{Game\+Components}} $>$
+\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a476342970f954b62d70552bcbb5ee509}\label{_game_object_properties_8h_a476342970f954b62d70552bcbb5ee509}} 
+enum {\bfseries Window\+Type} \{ {\bfseries N\+O\+NE} = 0, 
+{\bfseries F\+U\+L\+L\+S\+C\+R\+E\+EN} = 1 $<$$<$ 3, 
+{\bfseries D\+E\+F\+A\+U\+LT} = 1 $<$$<$ 0 $\vert$ 1 $<$$<$ 1 $\vert$ 1 $<$$<$ 2
+ \}
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a224b9163917ac32fc95a60d8c1eec3aa}\label{_game_object_properties_8h_a224b9163917ac32fc95a60d8c1eec3aa}} 
+enum {\bfseries Direction} \{ \newline
+{\bfseries Up}, 
+{\bfseries Down}, 
+{\bfseries Left}, 
+{\bfseries Right}, 
+\newline
+{\bfseries Nowhere}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_aeaa7c5356bceeb61b174ad5a2763ce97}\label{_game_object_properties_8h_aeaa7c5356bceeb61b174ad5a2763ce97}} 
+const float {\bfseries delta} = 1.\+0f / 60.f
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a95c24aea8af456c8b93a3f8ce0f9f3ee}\label{_game_object_properties_8h_a95c24aea8af456c8b93a3f8ce0f9f3ee}} 
+const float {\bfseries Screen\+Dimensions\+::\+\_\+\+Screen\+\_\+\+Width} = 1300.f
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_ad998ec5f4bd5b1840f7a454523514166}\label{_game_object_properties_8h_ad998ec5f4bd5b1840f7a454523514166}} 
+const float {\bfseries Screen\+Dimensions\+::\+\_\+\+Screen\+\_\+\+Height} = 900.f
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a5d8ec203a9ce2b029d212422e2fd5f06}\label{_game_object_properties_8h_a5d8ec203a9ce2b029d212422e2fd5f06}} 
+const float {\bfseries Game\+Object\+Speed\+::\+\_\+player\+Speed} = 900.f
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a41456eaf031524a5251fe88694c1f8ae}\label{_game_object_properties_8h_a41456eaf031524a5251fe88694c1f8ae}} 
+const float {\bfseries Game\+Object\+Speed\+::\+\_\+bullet\+Speed} = 300.f
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a5d8657f01069abb3f63b2ead0a9ca36f}\label{_game_object_properties_8h_a5d8657f01069abb3f63b2ead0a9ca36f}} 
+const float {\bfseries Game\+Object\+Speed\+::\+\_\+spawn\+Speed} = 2.\+0f
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a2ecc02b18312e89bb95278738da30b29}\label{_game_object_properties_8h_a2ecc02b18312e89bb95278738da30b29}} 
+const float {\bfseries Game\+Object\+Speed\+::enemy\+Horizontal\+Speed} = 2000.f
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a1d69628194ace30a568fefc891bc3552}\label{_game_object_properties_8h_a1d69628194ace30a568fefc891bc3552}} 
+const float {\bfseries Game\+Object\+Speed\+::enemy\+Vertical\+Speed} = 2000.f
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a6de752b65ef0feac01b1694757499581}\label{_game_object_properties_8h_a6de752b65ef0feac01b1694757499581}} 
+const std\+::string {\bfseries filepath\+::splash\+\_\+file\+\_\+path} = \char`\"{}resources/spsh.\+png\char`\"{}
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a75b1311694a1e1b489e409bb1ffd8717}\label{_game_object_properties_8h_a75b1311694a1e1b489e409bb1ffd8717}} 
+const std\+::string {\bfseries filepath\+::menu\+\_\+file\+\_\+path} = \char`\"{}resources/Mainmenu.\+png\char`\"{}
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a6df6d91986aede45b34d28d7281d6537}\label{_game_object_properties_8h_a6df6d91986aede45b34d28d7281d6537}} 
+const std\+::string {\bfseries filepath\+::game\+\_\+screen\+\_\+file\+\_\+path} = \char`\"{}resources/\+\_\+game.\+png\char`\"{}
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a36ab50f2aeb7932031a2be77cb0e253c}\label{_game_object_properties_8h_a36ab50f2aeb7932031a2be77cb0e253c}} 
+const std\+::string {\bfseries filepath\+::player\+\_\+file\+\_\+path} = \char`\"{}resources/\+\_\+player.\+png\char`\"{}
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_aa483c8a27a2f798557678d240f690fdb}\label{_game_object_properties_8h_aa483c8a27a2f798557678d240f690fdb}} 
+const std\+::string {\bfseries filepath\+::player2\+\_\+file\+\_\+path} = \char`\"{}resources/\+\_\+player.\+png\char`\"{}
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_ace585ca406261c1d350d0b0b6b6ac03b}\label{_game_object_properties_8h_ace585ca406261c1d350d0b0b6b6ac03b}} 
+const std\+::string {\bfseries filepath\+::bullet\+\_\+file\+\_\+path} = \char`\"{}resources/\+\_\+bullet.\+jpg\char`\"{}
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a74eaa1b4e28ed1d89cce14162f2d6f60}\label{_game_object_properties_8h_a74eaa1b4e28ed1d89cce14162f2d6f60}} 
+const std\+::string {\bfseries filepath\+::enemy\+\_\+file\+\_\+path} = \char`\"{}resources/al\+\_\+i\+\_\+en.\+png\char`\"{}
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_adebfea57bc14d016b65bbdfe816338d6}\label{_game_object_properties_8h_adebfea57bc14d016b65bbdfe816338d6}} 
+const std\+::string {\bfseries filepath\+::enemy\+\_\+file\+\_\+path1} = \char`\"{}resources/alien.\+png\char`\"{}
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_ae54daaab627fa2598dbe7704820d1547}\label{_game_object_properties_8h_ae54daaab627fa2598dbe7704820d1547}} 
+const std\+::string {\bfseries filepath\+::win\+\_\+file\+\_\+path} = \char`\"{}resources/\+\_\+game\+\_\+over\+\_\+w.\+png\char`\"{}
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a1a024812f853d4bc21f602362a8013e3}\label{_game_object_properties_8h_a1a024812f853d4bc21f602362a8013e3}} 
+const std\+::string {\bfseries filepath\+::lose\+\_\+file\+\_\+path} = \char`\"{}resources/\+\_\+game\+\_\+over\+\_\+lost.\+png\char`\"{}
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a7a062fca177888fe797aea98b75e1a15}\label{_game_object_properties_8h_a7a062fca177888fe797aea98b75e1a15}} 
+const float {\bfseries Game\+Constants\+::player\+Width} = 50.f
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a9a47be24ac2b1cf1554e78bcf7544926}\label{_game_object_properties_8h_a9a47be24ac2b1cf1554e78bcf7544926}} 
+const float {\bfseries Game\+Constants\+::player\+Height} = 55.f
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a4b726b76c4336e61f3c097d8075eeef0}\label{_game_object_properties_8h_a4b726b76c4336e61f3c097d8075eeef0}} 
+const float {\bfseries Game\+Constants\+::player\+Width\+\_\+or} = 0.f
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a481c116a9437635ff0c29038baff0d57}\label{_game_object_properties_8h_a481c116a9437635ff0c29038baff0d57}} 
+const float {\bfseries Game\+Constants\+::player\+Height\+\_\+or} = 0.f
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a4c7f880ac4c0709d76c8fa4e505af6e2}\label{_game_object_properties_8h_a4c7f880ac4c0709d76c8fa4e505af6e2}} 
+const float {\bfseries Game\+Constants\+::enemy\+Width} = 40.f
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_add92601ffdc060b86f9b7b7c822132f9}\label{_game_object_properties_8h_add92601ffdc060b86f9b7b7c822132f9}} 
+const float {\bfseries Game\+Constants\+::enemy\+Height} = 45.f
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a3826b7c6eb886e280584b9373053ba33}\label{_game_object_properties_8h_a3826b7c6eb886e280584b9373053ba33}} 
+const float {\bfseries Game\+Constants\+::enemy\+Width\+\_\+or} = 0.f
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a0e30a4c86b6e31a7d41164a1f223e0c2}\label{_game_object_properties_8h_a0e30a4c86b6e31a7d41164a1f223e0c2}} 
+const float {\bfseries Game\+Constants\+::enemy\+Height\+\_\+or} = 0.f
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_abf8aad30268fd47dd1f605ff08a08316}\label{_game_object_properties_8h_abf8aad30268fd47dd1f605ff08a08316}} 
+const unsigned {\bfseries Game\+Constants\+::armada\+\_\+width\+\_\+size} = 25u
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_aa27182ea3227eb97a100f4d799867275}\label{_game_object_properties_8h_aa27182ea3227eb97a100f4d799867275}} 
+const unsigned {\bfseries Game\+Constants\+::armada\+\_\+height\+\_\+size} = 3u
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a2265afdbd1cfabebfec9760f4e391064}\label{_game_object_properties_8h_a2265afdbd1cfabebfec9760f4e391064}} 
+const float {\bfseries Game\+Constants\+::\+\_\+player\+Original\+PositionX} = Screen\+Dimensions\+::\+\_\+\+Screen\+\_\+\+Width -\/ player\+Width
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a38d770d6a9195f217da3e1cf20ee8048}\label{_game_object_properties_8h_a38d770d6a9195f217da3e1cf20ee8048}} 
+const float {\bfseries Game\+Constants\+::\+\_\+player\+Original\+PositionY} = Screen\+Dimensions\+::\+\_\+\+Screen\+\_\+\+Height -\/ player\+Height
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_ae2d01e94a1279ace0f11e0af10666ee8}\label{_game_object_properties_8h_ae2d01e94a1279ace0f11e0af10666ee8}} 
+const float {\bfseries Game\+Constants\+::\+\_\+player\+Original\+Position\+X\+\_\+2} = player\+Width
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_a7ca80ba0d372eeb6a05ae47dea21539f}\label{_game_object_properties_8h_a7ca80ba0d372eeb6a05ae47dea21539f}} 
+const float {\bfseries Game\+Constants\+::\+\_\+player\+Original\+Position\+Y\+\_\+2} = player\+Height
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_ab77a6280bba6e3b52e478bdccc08932a}\label{_game_object_properties_8h_ab77a6280bba6e3b52e478bdccc08932a}} 
+const float {\bfseries Game\+Constants\+::bullet\+Object\+Height} = 30.f
+\item 
+\mbox{\Hypertarget{_game_object_properties_8h_ae2ea0ada72072eb663ec7f17a1fe0c71}\label{_game_object_properties_8h_ae2ea0ada72072eb663ec7f17a1fe0c71}} 
+const float {\bfseries Game\+Constants\+::bullet\+Object\+Width} = 5.f
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+this has all the properties that are gonna be needed in the entite game 
+
+all coordinates for the game
